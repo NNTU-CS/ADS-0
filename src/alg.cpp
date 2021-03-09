@@ -7,7 +7,7 @@ int gcd(int a, int b) {
      a = a-b;
      } else {
      b = b-a;
- }
+  }
  }
     return a;
 }

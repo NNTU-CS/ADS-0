@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/Users/frollluuu/Desktop/ADS-0/src/main.cpp",
+            "intelliSenseMode": "macos-gcc-x64",
+            "cStandard": "c23",
+            "cppStandard": "c++23"
+        },
+        {
+            "name": "1_2_2",
+            "includePath": [
+                " /Users/frollluuu/Desktop/ADS-0/src/main.cpp"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "intelliSenseMode": "macos-gcc-x64",
+            "cppStandard": "c++23",
+            "cStandard": "c23"
+        },
+    ],
+    "version": 4
+}

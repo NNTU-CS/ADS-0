@@ -3,13 +3,18 @@
 int gcd(int a, int b) {
     int max = a;
     int min = b;
+    int boofer;
     if (b > max){
         max = b;
         min = a;
     }
-    while (max % min){
-        max = min;
-        min = max % min;
+    while (max and min){
+        max = max % min;
+        if (min > max){
+            boofer = max;
+            max = min;
+            min = boofer;
+        }
     }
-    return min;
+    return max;
 }

@@ -9,6 +9,6 @@ int gcd(int a, int b) {
   }
   if (a != 0)
     return a;
-  else 
+  else if (b != 0) 
     return b;
 }

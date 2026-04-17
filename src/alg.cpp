@@ -1,5 +1,12 @@
 // Copyright 2021 NNTU-CS
 
 int gcd(int a, int b) {
-	return 25;
+    a = (a < 0) ? -a : a;
+    b = (b < 0) ? -b : b;
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
 }
